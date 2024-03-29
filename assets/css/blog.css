@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+#return {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 50px;
+    left: 90%;
+}
+
+.title {
+    text-align: center;
+    font-size: 22px;
+    color: hotpink;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: center;
+    line-height: 2;
+}

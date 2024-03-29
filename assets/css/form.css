@@ -1,0 +1,44 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    row-gap: 100px;
+}
+
+.sidePic {
+    max-width: 50%;
+    height: auto;
+    padding: 10px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+label {
+    display: block;
+    margin: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 1px solid black;
+}
+
+.submit {
+    display: block;
+    padding: 5px 10px 5px 10px;
+    background-color: pink;
+}
+
+.submit:hover {
+    background-color: hotpink;
+}
