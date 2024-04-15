@@ -1,9 +1,9 @@
 .flex-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 100vh;
-    row-gap: 100px;
+    gap: 333px;
 }
 
 .sidePic {
@@ -41,4 +41,10 @@ textarea {
 
 .submit:hover {
     background-color: hotpink;
+}
+
+.header p {
+    text-align: center;
+    font-size: 64px;
+    color: hotpink;
 }

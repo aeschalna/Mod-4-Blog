@@ -1,5 +1,4 @@
-// const toggleSwitch = document.querySelector('.toggle-mode');
-
+// Toggle light/dark mode
 document.querySelector('input[name=toggle-mode]').addEventListener('change', function () {
     if (this.checked) {
         document.body.classList.add('dark-mode');
